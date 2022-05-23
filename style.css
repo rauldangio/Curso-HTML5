@@ -17,7 +17,10 @@
 body{
     background: #f7f7f7;
     font-family: verdana;
-    margin: 10px;
+    margin: auto;
+    max-width: 1000px;
+    
+    
 }
 
 .post{
@@ -39,6 +42,8 @@ body{
 .imagem-post{
     margin:0;
     margin-bottom: 15px;
+    width: 100%;
+
 }
 
 .foto_de_perfil{
@@ -55,7 +60,8 @@ a{
 .lista{
     list-style-type: "\1F44D";
     margin: 0;
-    padding-left: 15px;
+    margin-bottom: 5px;
+    padding-left: 20px;
 }
 
 .lista li a{
