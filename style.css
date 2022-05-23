@@ -1,5 +1,5 @@
 #title, .subtitle, .post_title{
-    color: blueviolet
+    color: #505050
 }
 
 .post_title{
@@ -10,16 +10,30 @@
 }
 
 body{
-    background: #aaaaaa;
+    background: #f7f7f7;
 }
 
 .post{
     background: #fff;
-    padding: 10px;
+    padding: 15px;
     border: 3px solid #000;
-    margin: 10px;
+    margin: 0px;
+    border-radius: 15px;
+
 }
 
 .post_content{
+    margin: 0;
     
+}
+
+.imagem-post{
+    margin:0;
+    margin-bottom: 15px;
+}
+
+.foto_de_perfil{
+    border: 0.5px solid #000;
+    border-radius: 50%;
+
 }
