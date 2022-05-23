@@ -17,6 +17,7 @@
 body{
     background: #f7f7f7;
     font-family: verdana;
+    margin: 10px;
 }
 
 .post{
@@ -48,7 +49,17 @@ body{
 
 a{
     text-decoration: line-through;
-    color: #505050;
+    color: blue;
+}
+
+.lista{
+    list-style-type: "\1F44D";
+    margin: 0;
+    padding-left: 15px;
+}
+
+.lista li a{
+    text-decoration: underline;
 }
 
 .subtitle{
